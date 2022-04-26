@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(255, 226, 231);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#title, #futterSection{
+    text-align: center;
+}
+li {
+    padding-bottom: 20px;
+}
+#middleSection {
+    display: inline-flex;
+}
+#middleSectionRight, #middleSectionLeft {
+    width: 50%;
+}
+#universityPicture{
+    width: 100%;
+    padding-bottom: 20%;
+}
