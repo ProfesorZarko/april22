@@ -1,0 +1,20 @@
+body{
+    background-color: blanchedalmond;
+}
+#naslov{
+    font-size: 35px;
+    background-color: rgb(216, 179, 124);
+    text-align: center;
+}
+div{
+    width: 250px;
+    height: 150px;
+    border: solid 3px black;
+}
+#middleSection{
+    display: flex;
+}
+#milena{
+    width: 250px;
+    height: 150px;
+}

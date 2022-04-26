@@ -4,6 +4,7 @@ const catButton = document.querySelector("#catButton");
 const input = document.querySelector("#catName");
 const list = document.querySelector("#availableCats");
 const middleExercise = document.querySelector("#middleExrecise");
+const colors =["red", "blue", "green", "orange"];
 form.addEventListener("submit", function(e){
     e.preventDefault();
     const catName = input.value ;
