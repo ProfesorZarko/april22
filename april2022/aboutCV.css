@@ -1,0 +1,8 @@
+body{
+    background-color:cadetblue;
+}
+
+#upperSection{
+    background-color: antiquewhite;
+    display: -ms-inline-flexbox;
+}

@@ -19,3 +19,11 @@ li {
     width: 100%;
     padding-bottom: 20%;
 }
+button {
+    background-color: antiquewhite;
+    font-size: 33px;
+}
+p {
+    color: orange; 
+    background-color: aliceblue;
+}
