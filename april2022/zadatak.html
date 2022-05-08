@@ -7,14 +7,14 @@
     <title>ZADATAK</title><link rel="stylesheet" href="zadatak.css">
 </head>
 <body>
-    <h1>title koji smo izabrali</h1>
-        <button id="button">click me</button>
+    <h1>ZADAT PROMENE BOJA - odličan zadatak by Marko</h1>
+        <button id="dugme" onclick="bu()">click me for change color</button>
         <section id="upperSection">
-        
-            <div id="firstDiv" class="square">first</div>
-            <div class="square"> second</div>
-            <div class="square">third</div>
-            <div class="square">fourth</div>
+            <div id="firstDiv">first</div>
+            <div id="secondDiv"> second</div>
+            <div id="thirdDiv">third</div>
+            <div id="ForuthDiv">fourth</div>
+            <p id ="LV">jebo te Las Vegas</p>
         </section>
         <section id="middleSection">
             <button id="textButton" onclick="document.querySelector('#middleSection').style.backgroundColor = 'blue'">click to change color</button>
@@ -27,6 +27,7 @@
             <li id="catList"></li>
             <p id="s">samo text</p>
         </section>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="zadatak.js"></script>
 </body>
 </html>
