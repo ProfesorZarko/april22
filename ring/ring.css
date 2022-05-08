@@ -8,11 +8,12 @@ body{
 }
 .circle {
     position: relative;
+    
     width: 60vh;
     height: 60vh;
     background: linear-gradient(rgb(255, 255, 0),#6200ff);
     border-radius: 50%;
-    animation: animate 1s linear 1;
+    animation: animate 1s linear 6;
 }
 @keyframes animate {
     from {

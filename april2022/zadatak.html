@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZADATAK</title><link rel="stylesheet" href="zadatak.css">
+</head>
+<body>
+    <h1>title koji smo izabrali</h1>
+        <button id="button">click me</button>
+        <section id="upperSection">
+        
+            <div id="firstDiv" class="square">first</div>
+            <div class="square"> second</div>
+            <div class="square">third</div>
+            <div class="square">fourth</div>
+        </section>
+        <section id="middleSection">
+            <button id="textButton" onclick="document.querySelector('#middleSection').style.backgroundColor = 'blue'">click to change color</button>
+            <button onclick="document.querySelector('#middleSection').style.backgroundColor = 'grey'">click for gray</button>
+            <h1>available cats</h1>
+            <form action="shelter" id="catForm">
+                <input type="text" id="catName">
+                <button id="catButton">click for CAT</button>
+            </form>
+            <li id="catList"></li>
+            <p id="s">samo text</p>
+        </section>
+    <script src="zadatak.js"></script>
+</body>
+</html>

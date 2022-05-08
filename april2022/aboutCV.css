@@ -1,8 +1,30 @@
 body{
     background-color:cadetblue;
 }
+#firstBox, #secondBox, #thirdBox{
+    width: 50px;
+    height: 50px;
+    margin: 1em;
+    text-align: center;
+}
 
 #upperSection{
     background-color: antiquewhite;
     display: -ms-inline-flexbox;
+}
+#hoveringBox{
+    margin-left: 40%;
+    display: flex;
+}
+#hoveringBox:hover{
+    display: flex;
+   flex-direction: column;
+}
+@keyframes kornjaMoove{
+    from{left: -100px;}
+    to{left: 400px}
+}
+#ide{
+    position: relative;
+    animation: kornjaMoove 2s 5; 
 }
