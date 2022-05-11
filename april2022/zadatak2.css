@@ -1,0 +1,24 @@
+#leftUpperSection{
+    background-color: lightcoral;
+    width: 10 em;
+    height: 20em;
+}
+body{
+    background-color: lightgray;
+}
+/*#firstDiv, #secondDiv, #thirdDiv, #fourthDiv {
+    */
+.divovi{
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    position: relative;
+    display: inline-flex;
+}
+#firstDiv, #thirdDiv{
+    background-color: blueviolet;
+}
+#filip{
+    font-size: 43px;
+    color: brown;
+}
