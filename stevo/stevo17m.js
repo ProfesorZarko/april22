@@ -32,3 +32,4 @@ const add2=()=>{
     console.log("growin array : " + numberArray3);
 }
 button1.addEventListener("click", numberArray)
+
