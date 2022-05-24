@@ -1,7 +1,9 @@
 arrayOfNumbers=[5, 9];
+const changeButton = document.querySelector("#changeButton");
 const input = document.querySelector("#catName");
 const button = document.querySelector("#catButton");
 const catList = document.querySelector("#catList");
+const grayButton = document.querySelector("#grayButton");
 const insertNumber=(array, number)=>{
     lowerNumber=[];
     otherNumber = [];
@@ -31,3 +33,15 @@ button.addEventListener("click", function(e){
     input.value="";
     
 });
+changeButton.addEventListener("click", function(e){
+ e.preventDefault();
+ document.querySelector("#first").style.backgroundColor="blue";
+ setTimeout(document.querySelector("#first").style.backgroundColor="pink", 3000);
+ 
+
+ console.log("clicked");
+});
+grayButton.addEventListener("click", function(e){
+    e.preventDefault();
+    document.querySelector("#first").style.backgroundColor="gray";
+})
